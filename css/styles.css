@@ -1,0 +1,78 @@
+body {
+    text-align: center !important;
+}
+
+.logo-image {
+    position: relative;
+    width: 60%;
+    max-width: 25px;
+    height: auto;
+    padding: 11% 0 5% 0;
+}
+
+.white-section {
+    background-color: fff;
+}
+
+.colored-section,
+.navbar {
+    background-color: #f0c060;
+}
+
+.container-fluid {
+    padding: 4% 17% !important;
+}
+
+.title-words {
+    font-family: "Satisfy";
+    text-align: center;
+    padding: 5%;
+}
+
+.header {
+    color: #09619c;
+    padding-bottom: 3%;
+}
+
+.navbar {
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+/* PROFILE */
+#profile {
+    background-color: fff;
+}
+
+.profile-header {
+    text-align: center;
+    padding: 3% 0 5%;
+}
+
+.profile-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 60%;
+}
+
+/* PROJECTS */
+
+hr {
+    height: 10px !important;
+    border: 20px;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    padding: 3% 0 3% 0;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #FF9B6A;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 1rem;
+    margin: 20px 0px;
+}
