@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Raleway&display=swap');
 
-html,
-body {
+html,body {
     text-align: center !important;
     height: 100%;
     margin: 0;
@@ -10,13 +10,25 @@ body {
 /*TITLE*/
 
 #title {
-    background: rgba(0, 0, 0, 0.7) url("../images/backgroung-image.webp");
+    background: rgba(0, 0, 0, 0.5) url("../images/backgroung-image.webp");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
 }
+.title-text{
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 4.5rem;
+    margin-top: 5rem;
+    color: #ffffff;
+}
+.title-text2{
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
+}
+
 
 /*MOUSE SCROLL*/
 *,
@@ -32,7 +44,7 @@ body {
     margin: 0 auto;
     width: 24px;
     height: 100px;
-    margin-top: 410px;
+    margin-top: 8rem;
 }
 
 .m_scroll_arrows {
@@ -267,22 +279,21 @@ body {
 /*----------------------------------------------------------------------*/
 
 .white-section {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Alegreya', serif;
 }
 
-.colored-section,
 .navbar {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Raleway', serif;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.nav-item{
+    margin-right: 2rem;
 }
 
 .container-fluid {
-    padding: 4% 17% !important;
-}
-
-.title-words {
-    font-family: "Satisfy";
-    text-align: center;
-    padding: 5%;
+    padding: 4% 7% !important;
 }
 
 .header {
@@ -290,15 +301,9 @@ body {
     padding-bottom: 3%;
 }
 
-.navbar {
-    font-size: 1.4rem;
-    font-weight: 900;
-}
-
 /* PROFILE */
 #profile {
-    background-color: fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Alegreya', serif;
 }
 
 .profile-header {
@@ -340,7 +345,7 @@ hr {
     display: flex;
     height: 100%;
     width: 100%;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Alegreya', serif;
     align-items: center;
     justify-content: center;
     background: radial-gradient(#fdd0d0, #d7e1ec);
