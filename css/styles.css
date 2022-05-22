@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Raleway&display=swap');
 
-html,body {
+html,
+body {
     text-align: center !important;
     height: 100%;
     margin: 0;
@@ -17,14 +18,16 @@ html,body {
     background-size: cover;
     background-blend-mode: darken;
 }
-.title-text{
+
+.title-text {
     font-family: 'Alegreya', serif;
     font-weight: 900;
     font-size: 4.5rem;
     margin-top: 5rem;
     color: #ffffff;
 }
-.title-text2{
+
+.title-text2 {
     font-family: 'Alegreya', serif;
     color: #ffffff;
 }
@@ -280,6 +283,8 @@ html,body {
 
 .white-section {
     font-family: 'Alegreya', serif;
+    background: radial-gradient(#fdd0d0, #c9d8e7);
+
 }
 
 .navbar {
@@ -288,7 +293,8 @@ html,body {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.1);
 }
-.nav-item{
+
+.nav-item {
     margin-right: 2rem;
 }
 
@@ -304,6 +310,7 @@ html,body {
 /* PROFILE */
 #profile {
     font-family: 'Alegreya', serif;
+    text-align: left;
 }
 
 .profile-header {
@@ -313,10 +320,123 @@ html,body {
 
 .profile-photo {
     max-width: 100%;
+    margin-bottom: 2%;
     height: auto;
     border-radius: 50%;
-    width: 60%;
+    width: 20%;
 }
+
+table,
+td {
+    border-spacing: 30px;
+    padding-right: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+/* skills bar*/
+.wrapper2 {
+    width: 500px;
+}
+
+.skill {
+    margin-bottom: 10px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.skill>p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3b3635;
+    margin: 0;
+}
+
+.skill:before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background: #000000;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1 {
+    width: 50%;
+
+}
+
+.skill-bar span {
+    position: absolute;
+    top: -30px;
+    font-size: 18px;
+}
+
+.skill-bar {
+    position: relative;
+
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+/* SKILL 2 */
+.skill2 {
+    width: 85%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+/* SKILL 3 */
+.skill3 {
+    width: 75%;
+}
+
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4 {
+    width: 65%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5 {
+    width: 80%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+.skill6 {
+    width: 90%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+
+/* end of skills bar*/
+
 
 /* PROJECTS */
 
@@ -343,8 +463,6 @@ hr {
 
 #contact {
     display: flex;
-    height: 100%;
-    width: 100%;
     font-family: 'Alegreya', serif;
     align-items: center;
     justify-content: center;

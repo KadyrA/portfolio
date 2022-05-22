@@ -86,3 +86,8 @@ document.querySelector('#comment-list').addEventListener('click', (e) => {
 
     UI.deleteComment(e.target)
 });
+
+//skills bar 
+(function($){
+    new WOW().init();
+})(jQuery);
