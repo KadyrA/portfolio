@@ -371,7 +371,7 @@ td {
 
 /* SKILL 1 */
 .skill1 {
-    width: 50%;
+    width: 65%;
 
 }
 
@@ -392,7 +392,7 @@ td {
 
 /* SKILL 2 */
 .skill2 {
-    width: 85%;
+    width: 65%;
 }
 
 .skill2 .skill-count2 {
@@ -401,7 +401,7 @@ td {
 
 /* SKILL 3 */
 .skill3 {
-    width: 75%;
+    width: 50%;
 }
 
 .skill3 .skill-count3 {
@@ -410,7 +410,7 @@ td {
 
 /* SKILL 4 */
 .skill4 {
-    width: 65%
+    width: 60%
 }
 
 .skill4 .skill-count4 {
@@ -419,7 +419,7 @@ td {
 
 /* SKILL 5 */
 .skill5 {
-    width: 80%;
+    width: 50%;
 }
 
 .skill5 .skill-count5 {
@@ -428,7 +428,7 @@ td {
 
 /* SKILL 6 */
 .skill6 {
-    width: 90%
+    width: 70%
 }
 
 .skill6 .skill-count6 {
